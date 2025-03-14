@@ -8,13 +8,13 @@ function Rotas() {
     return (
         <div>
         
-            <BrowserRouter>
+            <HashRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/Sobre" element={<Sobre />} />
                 <Route path="/Usuario" element={<Usuario />} />
             </Routes>
-            </BrowserRouter>
+            </HashRouter>
 
 
         </div>
